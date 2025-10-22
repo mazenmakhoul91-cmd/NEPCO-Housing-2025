@@ -1,0 +1,900 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الدليل الشامل - نظام صندوق إسكان 2025 (لجميع المواد)</title>
+    <!-- خط القاهرة لتحسين العرض بالعربية -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: 'Cairo', 'Tahoma', sans-serif;
+            direction: rtl;
+            /* خلفية الصفحة بلون أخضر فاتح جداً */
+            background-color: #f0fdfa; /* bg-teal-50 */
+            background-image: radial-gradient(circle at 1px 1px, rgba(0,0,0,0.04) 1px, transparent 0);
+            background-size: 25px 25px;
+        }
+        /* تعريف ألوان NEPCO المخصصة */
+        .tailwind-config {
+            theme: {
+                extend: {
+                    colors: {
+                        'nepco-blue': '#004a99',
+                        'nepco-yellow': '#ffdd00',
+                        'nepco-light': '#f0f4f8',
+                    }
+                }
+            }
+        }
+        .tailwind-config { display: none; }
+
+        /* تصميم خاص لبطاقات السؤال والجواب */
+        .qa-card {
+            border-right: 4px solid #004a99; /* 'nepco-blue' */
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+            margin-bottom: 20px;
+            overflow: hidden;
+        }
+        /* جعل كل سؤال بخلفية مختلفة لتمييزه */
+        .qa-card:nth-child(even) {
+            background-color: #f9fafb; /* bg-gray-50 */
+        }
+        .qa-question {
+            font-size: 1.25rem; /* text-xl */
+            font-weight: 700; /* font-bold */
+            color: #004a99; /* 'nepco-blue' */
+            padding: 16px 20px;
+            background-color: #f0f4f8; /* 'nepco-light' */
+            border-bottom: 1px solid #e0e0e0;
+        }
+        .qa-answer {
+            padding: 20px;
+            font-size: 1rem; /* text-base */
+            color: #333;
+            line-height: 1.7;
+        }
+        .qa-answer ul {
+            list-style-type: disc;
+            margin-right: 20px;
+            margin-top: 10px;
+        }
+        
+        /* تنسيق السؤال الفرعي داخل الجواب */
+        .sub-question {
+            font-size: 1.1rem; /* text-lg */
+            font-weight: 700; /* font-bold */
+            color: #333; /* text-gray-800 */
+            margin-bottom: 10px;
+        }
+
+        /* فاصل بين الأجوبة المدمجة */
+        .answer-separator {
+            border-top: 1px solid #e5e7eb; /* border-gray-200 */
+            margin: 0 20px; /* يطابق PADDING الجواب */
+        }
+        
+        /* تنسيق جميل لنص المادة المقتبس */
+        .quote-block {
+            background-color: #f8f9fa; /* لون خلفية خفيف جداً */
+            border-right: 4px solid #ffdd00; /* 'nepco-yellow' */
+            padding: 12px 16px;
+            margin-top: 16px;
+            border-radius: 4px;
+        }
+        .quote-block-title {
+            font-weight: 600;
+            color: #555;
+            margin-bottom: 8px;
+            font-size: 0.9em;
+        }
+        .quote-block-content {
+            font-family: 'Cairo', 'Tahoma', sans-serif; /* تم توحيد الخط */
+            font-style: normal; /* تم إزالة الخط المائل */
+            color: #444;
+            line-height: 1.6;
+            font-size: 0.95em;
+        }
+    </style>
+</head>
+<!-- تمت إضافة الإطار العلوي هنا -->
+<body class="">
+
+    <!-- الهيدر -->
+    <header class="bg-white shadow-sm">
+        <div class="container mx-auto max-w-4xl p-6 text-center">
+            <h1 class="text-3xl font-bold text-nepco-blue">الدليل الشامل لنظام صندوق إسكان 2025</h1>
+            <p class="text-lg text-gray-600 mt-2">سؤال وجواب لجميع مواد النظام (من المادة 1 إلى 31)</p>
+        </div>
+    </header>
+
+    <!-- شريط الملاحظات -->
+    <footer class="text-center p-4 bg-red-100 border-b border-red-300 text-red-800 text-sm font-bold shadow-sm">
+        <p>هذا الدليل هو لغايات التوضيح ولا يغني عن قراءة النظام الرسمي المعتمد.</p>
+    </footer>
+
+    <!-- المحتوى الرئيسي -->
+    <main class="container mx-auto max-w-4xl p-4 md:p-8 my-8">
+
+        <!-- المادة 1 -->
+        <div class="qa-card">
+            <div class="qa-question">
+                المادة (1): اسم النظام وتاريخ العمل به
+            </div>
+            <div class="qa-answer">
+                <p class="sub-question">ما هو اسم النظام ومتى يبدأ العمل به؟</p>
+                <p>يُسمى "نظام صندوق إسكان موظفي شركة الكهرباء الوطنية رقم (8) لسنة 2025 وتعديلاته"، ويُعمل به من تاريخ إقراره من مجلس الإدارة.</p>
+                <blockquote class="quote-block">
+                    <p class="quote-block-title">نص المادة (1) من النظام:</p>
+                    <div class="quote-block-content">
+                        "أ- يُسمى هذا النظام "" نظام صندوق إسكان موظفي شركة الكهرباء الوطنية"" رقم (8) لسنة 2025 وتعديلاته."
+                        <br>
+                        "ب- يسري العمل بهذا النظام اعتبارا من تاريخ اقراره من مجلس الإدارة."
+                    </div>
+                </blockquote>
+            </div>
+        </div>
+
+        <!-- المادة 2 -->
+        <div class="qa-card">
+            <div class="qa-question">
+                المادة (2): التعريفات الهامة
+            </div>
+            <div class="qa-answer">
+                <p class="sub-question">ما هي التعريفات الهامة في النظام؟</p>
+                <p>تحدد هذه المادة معاني المصطلحات المستخدمة في النظام لضمان فهم موحد. أهمها:</p>
+                <ul class="space-y-1">
+                    <li><strong>الصندوق:</strong> صندوق إسكان موظفي الشركة.</li>
+                    <li><strong>الموظف:</strong> كل شخص عامل (ذكر أو أنثى) معين بقرار رسمي في الشركة.</li>
+                    <li><strong>الراتب:</strong> الراتب الأساسي الشهري.</li>
+                    <li><strong>الخدمة الفعلية:</strong> الخدمة في الشركة (وسلطة الكهرباء سابقاً) بعد خصم الإجازات بدون راتب.</li>
+                    <li><strong>المستفيد:</strong> كل موظف تنطبق عليه شروط الاستفادة.</li>
+                    <li><strong>الوحدة السكنية:</strong> بيت مستقل أو شقة، أو مشروع إنشائها أو توسيعها.</li>
+                    <li><strong>إعادة تأهيل:</strong> أعمال صيانة جذرية (مدنية، كهربائية، صحية).</li>
+                    <li><strong>الاشتراك:</strong> مبلغ 20 دينار يقتطع من الموظف الراغب بالاشتراك.</li>
+                </ul>
+                <blockquote class="quote-block">
+                    <p class="quote-block-title">نص المادة (2) من النظام:</p>
+                    <div class="quote-block-content">
+                        "يكون للكلمات والعبارات التالية حيثما وردت في هذا النظام المعاني المخصصة لها أدناه ما لم تدل القرينة على غير ذلك:-..." (يليها قائمة التعريفات كاملة).
+                    </div>
+                </blockquote>
+            </div>
+        </div>
+
+        <!-- المادة 3 -->
+        <div class="qa-card">
+            <div class="qa-question">
+                المادة (3): تأسيس الصندوق والاشتراك
+            </div>
+            <div class="qa-answer">
+                <p class="sub-question">كيف يتم تأسيس الصندوق ومن يشترك فيه؟</p>
+                <p>يتم تأسيس صندوق في الشركة باسم "صندوق إسكان موظفي شركة الكهرباء الوطنية"، والاشتراك فيه يكون <strong class="text-nepco-blue">اختيارياً للموظفين الراغبين</strong> بذلك.</p>
+                <blockquote class="quote-block">
+                    <p class="quote-block-title">نص المادة (3) من النظام:</p>
+                    <div class="quote-block-content">
+                        "يؤسس في الشركة صندوق يسمى (صندوق إسكان موظفي شركة الكهرباء الوطنية ويشترك فيه الموظفون الراغبون بالاشتراك يعمل على تحقيق الأهداف المنصوص عليها في هذا النظام وتدار شؤونه وفقاً لأحكامه."
+                    </div>
+                </blockquote>
+            </div>
+        </div>
+        
+        <!-- المادة 4 -->
+        <div class="qa-card">
+            <div class="qa-question">
+                المادة (4): أهداف الصندوق
+            </div>
+            <div class="qa-answer">
+                <p class="sub-question">ما هي أهداف الصندوق؟</p>
+                <p>يمكنك استخدام القرض لأحد الأهداف التالية:</p>
+                <ul class="space-y-2">
+                    <li>بناء أو شراء وحدة سكنية (شقة أو منزل).</li>
+                    <li>إكمال أو توسيع بناء قائم.</li>
+                    <li><strong class="text-green-700">هدف جديد:</strong> "إعادة تأهيل" وحدتك السكنية الحالية (صيانة وتجديد).</li>
+                    <li>تسديد رصيد قرض سكني قائم عليك (سواء لبنك أو لصندوق الادخار).</li>
+                </ul>
+                <blockquote class="quote-block">
+                    <p class="quote-block-title">نص المادة (4) من النظام:</p>
+                    <div class="quote-block-content">
+                        "أ) تقديم القروض للمستفيدين لإقامة الوحدة السكنية.
+                        <br> ب) تمويل شراء الوحدة السكنية والأرض لإقامة الوحدة السكنية عليها.
+                        <br> ج) تمويل إعادة التأهيل الوحدة السكنية.
+                        <br> د) إقراض الموظفين لتسديد القروض السكنية والتي حصلوا عليها من المؤسسات التمويلية أو البنوك أو صندوق الادخار..."
+                    </div>
+                </blockquote>
+            </div>
+        </div>
+
+        <!-- المادة 5 -->
+        <div class="qa-card">
+            <div class="qa-question">
+                المادة (5): إدارة الصندوق (لجنة الصندوق)
+            </div>
+            <div class="qa-answer">
+                <p class="sub-question">من يدير الصندوق (لجنة الصندوق)؟</p>
+                <p>يشكل مجلس الإدارة "لجنة صندوق الإسكان" من 5 أعضاء للإشراف على الصندوق، وهم:</p>
+                <ul class="space-y-1">
+                    <li>الرئيس (من أعضاء مجلس الإدارة).</li>
+                    <li>نائب الرئيس (من أعضاء مجلس الإدارة).</li>
+                    <li>المدير العام.</li>
+                    <li>عضو من الإدارة العليا.</li>
+                    <li>عضو ممثل للنقابة العامة للعاملين بالكهرباء (موظف بالشركة).</li>
+                </ul>
+                <p class="mt-2">تجتمع اللجنة مرة كل 3 أشهر على الأقل، ويكون الاجتماع قانونياً بحضور 3 أعضاء (بشرط وجود الرئيس أو نائبه).</p>
+                <blockquote class="quote-block">
+                    <p class="quote-block-title">نص المادة (5) من النظام:</p>
+                    <div class="quote-block-content">
+                        "أ) يشكل المجلس لجنة تسمى (لجنة صندوق الإسكان...) وتتألف اللجنة من خمسة أعضاء..." (يليها تفاصيل الأعضاء وآلية الاجتماعات).
+                    </div>
+                </blockquote>
+            </div>
+        </div>
+
+        <!-- المادة 6 -->
+        <div class="qa-card">
+            <div class="qa-question">
+                المادة (6): صلاحيات ومهام لجنة الصندوق
+            </div>
+            <div class="qa-answer">
+                <p class="sub-question">ما هي صلاحيات ومهام لجنة الصندوق؟</p>
+                <p>تتولى اللجنة المسؤوليات التالية:</p>
+                <ul class="space-y-1">
+                    <li><strong>قرارات مباشرة:</strong> الموافقة على طلبات القروض، مراقبة أموال الصندوق، واستثمارها حسب الشريعة الإسلامية.</li>
+                    <li><strong>توصيات للمجلس:</strong> التنسيب بالسياسة العامة، إعداد القواعد الإدارية، اقتراح شراء أراضي، وإقرار الميزانيات.</li>
+                    <li><strong>مهام تنفيذية (عبر الدائرة المعنية):</strong> تنظيم السجلات المحاسبية، تنفيذ القرارات، وإعداد الحسابات الختامية.</li>
+                </ul>
+                <blockquote class="quote-block">
+                    <p class="quote-block-title">نص المادة (6) من النظام:</p>
+                    <div class="quote-block-content">
+                        "لغايات تحقيق أهداف الصندوق... تتولى اللجنة ما يلي :-
+                        <br> 1- اتخاذ القرارات المناسبة بشأن...
+                        <br> 2- تقديم التوصيات للمجلس بشأن...
+                        <br> 3- تتولى الدائرة المعنية ما يلي..."
+                    </div>
+                </blockquote>
+            </div>
+        </div>
+
+        <!-- المادة 7 -->
+        <div class="qa-card">
+            <div class="qa-question">
+                المادة (7): موارد الصندوق المالية
+            </div>
+            <div class="qa-answer">
+                <p class="sub-question">من أين تأتي أموال الصندوق (موارد الصندوق)؟</p>
+                <p>تتكون أموال الصندوق من 4 مصادر:</p>
+                <ul class="space-y-1">
+                    <li>المبالغ التي تقدمها الشركة للصندوق.</li>
+                    <li>الأقساط التي يسددها المستفيدون (المقترضون).</li>
+                    <li>أي منح أو هبات يوافق عليها المجلس.</li>
+                    <li><strong class="text-green-700">المصدر الجديد:</strong> اشتراكات الموظفين في الصندوق (الـ 20 ديناراً).</li>
+                </ul>
+                <blockquote class="quote-block">
+                    <p class="quote-block-title">نص المادة (7) من النظام:</p>
+                    <div class="quote-block-content">
+                        "تتكون أموال الصندوق من الموارد التالية :-
+                        <br> أ- المبالغ التي تقدمها الشركة للصندوق.
+                        <br> ب- الأقساط التي يسددها المستفيدون.
+                        <br> ج- أي منح أو هبات أو موارد مالية اخرى يوافق عليها المجلس.
+                        <br> د- اشتراكات الموظفين في الصندوق."
+                    </div>
+                </blockquote>
+            </div>
+        </div>
+        
+        <!-- المادة 8 -->
+        <div class="qa-card">
+            <div class="qa-question">
+                المادة (8): إيداع الأموال والتواقيع المالية
+            </div>
+            <div class="qa-answer">
+                <p class="sub-question">أين تودع أموال الصندوق ومن يوقع على المعاملات المالية؟</p>
+                <p>تودع أموال الصندوق في أحد البنوك المرخصة. وتحدد المادة المفوضين بالتوقيع حسب قيمة المبلغ (أكثر من 1000 دينار، أو 1000 دينار وأقل).</p>
+                <blockquote class="quote-block">
+                    <p class="quote-block-title">نص المادة (8) من النظام:</p>
+                    <div class="quote-block-content">
+                        "أ- تودع أموال الصندوق في أحد البنوك المرخصة.
+                        <br> ب- يكون المفوضون بالتوقيع على الأمور المالية للصندوق على النحو التالي:-..." (يليها جدول التواقيع).
+                    </div>
+                </blockquote>
+            </div>
+        </div>
+
+        <!-- المادة 9 -->
+        <div class="qa-card">
+            <div class="qa-question">
+                المادة (9): مدة السداد وآلية الاقتطاع
+            </div>
+            <div class="qa-answer">
+                <p class="sub-question">ما هي مدة سداد القرض وكيف يتم اقتطاعه؟</p>
+                <ul class="space-y-2">
+                    <li>مدة السداد القصوى هي <strong class="text-gray-900">240 قسطاً</strong> (وليس بالضرورة 240 شهراً) أو حتى بلوغ سن التقاعد، أيهما أقل.</li>
+                    <li>
+                        <strong class="text-red-700">نقطة هامة:</strong> سيتم اقتطاع الأقساط من رواتبك <strong class="text-gray-900">"الشهرية والإضافية"</strong>.
+                    </li>
+                </ul>
+                 <blockquote class="quote-block">
+                    <p class="quote-block-title">نص المادة (9) من النظام:</p>
+                    <div class="quote-block-content">
+                        "أ) ... على أن لا تزيد فترة السداد عن (240) قسطا أو الفترة التي يصل فيها عمر المستفيد إلى سن التقاعد بموجب التشريعات النافذة أيهما أقل.
+                        <br> ب) تقتطع الأقساط من الرواتب الشهرية والإضافية للمستفيد."
+                    </div>
+                </blockquote>
+            </div>
+        </div>
+
+        <!-- المادة 10 -->
+        <div class="qa-card">
+            <div class="qa-question">
+                المادة (10): شروط الأهلية للتقديم
+            </div>
+            <div class="qa-answer">
+                <p class="sub-question">ما هي الشروط الأساسية للتقديم (شروط الأهلية)؟</p>
+                <p>حتى تكون <strong class="text-nepco-blue">مؤهلاً لتقديم الطلب</strong>، يجب أن:</p>
+                <ul class="space-y-2">
+                    <li>تكون موظفاً في الشركة.</li>
+                    <li>أن لا تقل مدة خدمتك الفعلية في الشركة عن <strong class="text-gray-900">10 سنوات</strong>.</li>
+                    <li>أن تكون غاية القرض ضمن أهداف الصندوق (بناء، شراء، الخ).</li>
+                </ul>
+
+                <blockquote class="quote-block">
+                    <p class="quote-block-title">نص المادة (10) من النظام:</p>
+                    <div class="quote-block-content">
+                        "شروط الاستفادة من قروض الصندوق
+                        <br>1- أن يكون موظفاً في الشركة.
+                        <br>2- أن لا تقل سنوات خدمته الفعلية في الشركة عن عشر سنوات.
+                        <br>3- ان تكون الغاية من القرض ضمن الأهداف التي يعمل الصندوق على تحقيقها ."
+                    </div>
+                </blockquote>
+            </div>
+        </div>
+        
+        <!-- المادة 11 -->
+        <div class="qa-card">
+            <div class="qa-question">
+                المادة (11): شروط ملكية العقار (الملكية المشتركة)
+            </div>
+            <div class="qa-answer">
+                <p class="sub-question">هل يمكن أن يكون العقار باسمي أو باسم زوجتي/أبنائي؟</p>
+                <p>نعم، النظام يوفر مرونة في الملكية:</p>
+                <ul class="space-y-2">
+                    <li>يمكن أن يكون العقار (أرض أو منزل) باسمك أو باسم زوجتك.</li>
+                    <li>
+                        يمكن أيضاً أن يكون العقار <strong class="text-nepco-blue">بالمشاركة</strong> (مناصفة) مع الزوج/الزوجة أو الأبناء المعالين، ولكن <strong class="text-red-700">بشرطين</strong>:
+                        <br>1. أن تكون حصة الموظف في العقار <strong class="text-gray-900">لا تقل عن قيمة القرض</strong> الممنوح له.
+                        <br>2. يجب <strong class="text-gray-900">رهن العقار بالكامل</strong> رهناً من الدرجة الأولى للصندوق (حتى حصص الشركاء).
+                    </li>
+                </ul>
+                <blockquote class="quote-block">
+                    <p class="quote-block-title">نص المادة (11) من النظام:</p>
+                    <div class="quote-block-content">
+                        "أ) منح قرض سكني... يملكه الموظف او زوجته.
+                        <br> ب) يجوز منح القرض السكني لشراء منزل أو شقة مع الزوجة / الزوج أو أي من الأبناء المعالين... بشرط أن تكون حصة الموظف لا تقل عن قيمة القرض الممنوح له مع رهن العقار رهنا كاملا من الدرجة الأولى للصندوق."
+                    </div>
+                </blockquote>
+            </div>
+        </div>
+
+        <!-- المادة 12 (مقسمة) -->
+        <div class="qa-card">
+            <div class="qa-question">
+                المادة (12): شروط الأولوية، الاشتراك، وقيمة القرض
+            </div>
+            <div class="qa-answer">
+                <p class="sub-question">كيف يتم تحديد دوري (شروط الأولوية)؟</p>
+                <p>يتم تحديد الأولوية عبر <strong class="text-nepco-blue">نظام نقاط من 100 علامة</strong>. من يحصل على نقاط أعلى تكون له الأولوية:</p>
+                <ul class="space-y-3">
+                    <li>
+                        <strong class="text-gray-900">نقاط الاشتراك (60 علامة كحد أقصى)</strong>
+                        <ul class="pr-4">
+                            <li><strong class="text-nepco-blue">25 علامة:</strong> لمجرد كونك مشتركاً.</li>
+                            <li><strong class="text-nepco-blue">35 علامة:</strong> عن "مدة الاشتراك" (الحد الأقصى للمدة المحسوبة هو 7 سنوات).</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <strong class="text-gray-900">نقاط الخدمة (40 علامة كحد أقصى)</strong>
+                         <ul class="pr-4">
+                            <li><strong class="text-nepco-blue">نقطتين عن كل سنة خدمة فعلية</strong>.</li>
+                            <li>(الحد الأقصى للخدمة المحسوبة هو 20 سنة = 40 علامة).</li>
+                        </ul>
+                    </li>
+                </ul>
+                <p class="mt-2">في حال تساوي العلامات، تعطى الأولوية للرقم الوظيفي الأقدم.</p>
+                <blockquote class="quote-block">
+                    <p class="quote-block-title">نص المادة (12 - أ) من النظام:</p>
+                    <div class="quote-block-content">
+                        "1 - مدة المشاركة في الصندوق 7 سنوات كحد اقصى.
+                        <br>2 - تمنح 60 علامة على مدة الاشتراك في الصندوق (25) علامة للاشتراك و 35 علامة لمدة الاشتراك ( ويمنح الموظف نقطتين عن كل سنة خدمة وبحد اقصى 40 علامة على مدة الخدمة..."
+                    </div>
+                </blockquote>
+            </div>
+
+            <hr class="answer-separator">
+
+            <div class="qa-answer">
+                <p class="sub-question">ما هي شروط الاشتراك والانسحاب؟</p>
+                <ul class="space-y-2">
+                    <li>يجب تسديد قيمة الاشتراك كاملة قبل منح القرض (أو يتم خصمها من القرض).</li>
+                    <li>يبدأ الاشتراك من تاريخ تقديم الطلب.</li>
+                    <li>
+                        <strong class="text-red-700">في حال الانسحاب (قبل أخذ القرض):</strong>
+                        <br> 1. <strong class="text-gray-900">تفقد حقك</strong> في الاشتراك مرة أخرى.
+                        <br> 2. تسترد اشتراكاتك <strong class="text-gray-900">بعد مرور عام</strong> من الانسحاب.
+                    </li>
+                </ul>
+                <blockquote class="quote-block">
+                    <p class="quote-block-title">نص المادة (12 - أ - 3، 5، 6) من النظام:</p>
+                    <div class="quote-block-content">
+                        "3- على المشترك تسديد قيمة اشتراكه في الصندوق كاملا قبل منحه القرض...
+                        <br> 5- يبدأ اشتراك في الصندوق من تاريخ تقديم الطب...
+                        <br> 6- في حال رغبة الموظف بالانسحاب... يفقد الموظف حقه في الاشتراك مرة أخرى ويتم صرف قيمة اشتراكاته له بعد مرور عام من تاريخ انسحابه."
+                    </div>
+                </blockquote>
+            </div>
+        
+            <hr class="answer-separator">
+
+            <div class="qa-answer">
+                <p class="sub-question">كم هو مبلغ القرض الذي يمكنني الحصول عليه؟</p>
+                <p>يعتمد المبلغ على نوع القرض:</p>
+                <ul class="space-y-2">
+                    <li><strong class="text-nepco-blue">القرض السكني (بناء/شراء):</strong>
+                        <ul>
+                            <li>المعادلة: 60 ضعف الراتب الأساسي.</li>
+                            <li>الحد الأقصى: <strong class="text-gray-900">30,000 دينار</strong>.</li>
+                            <li>(يجب ألا تتجاوز الاقتطاعات الإجمالية 55% من الراتب الإجمالي + غلاء المعيشة).</li>
+                        </ul>
+                    </li>
+                    <li><strong class="text-nepco-blue">قرض "إعادة التأهيل":</strong>
+                        <ul>
+                            <li>الحد الأقصى: <strong class="text-gray-900">10,000 دينار</strong>. (ويخضع لتقييم لجنة فنية).</li>
+                        </ul>
+                    </li>
+                </ul>
+                <blockquote class="quote-block">
+                    <p class="quote-block-title">نص المادة (12 - و) و (12 - ع) من النظام:</p>
+                    <div class="quote-block-content">
+                        "و) لا يجوز في أي حالة من الحالات أن يزيد الحد الأعلى للقرض... (60) ضعف الراتب الأساسي... وبحد أقصى مقداره (30) ألف دينار..."
+                        <br>
+                        "ع) اذا كانت الغاية من القرض إعادة التأهيل... يجب ان لا تتجاوز قيمة القرض عن عشرة الاف دينار..."
+                    </div>
+                </blockquote>
+            </div>
+        </div>
+
+        <!-- المادة 13 -->
+        <div class="qa-card">
+            <div class="qa-question">
+                المادة (13): منع شراء عقارات الأقارب
+            </div>
+            <div class="qa-answer">
+                <p class="sub-question">هل يمكنني شراء منزل مسجل باسم أحد أقاربي؟</p>
+                <p><strong class="text-red-700">لا.</strong> يمنع النظام منح قرض لشراء وحدة سكنية إذا كانت مسجلة باسم (الوالد، الوالدة، الزوج، الزوجة، أو أحد الأبناء سواء كانوا معالين أو غير معالين).</p>
+                <blockquote class="quote-block">
+                    <p class="quote-block-title">نص المادة (13) من النظام:</p>
+                    <div class="quote-block-content">
+                        "لا يجوز منح قرضاً سكنياً للمستفيد من هذه القروض لشراء الوحدة السكنية اذا كانت الوحدة السكنية مسجلة باسم والد او والدة أو زوجة أو زوج أو أحد أبناء المستفيد المعالين وغير المعالين."
+                    </div>
+                </blockquote>
+            </div>
+        </div>
+        
+        <!-- المادة 14 -->
+        <div class="qa-card">
+            <div class="qa-question">
+                المادة (14): الوثائق والالتزامات المطلوبة
+            </div>
+            <div class="qa-answer">
+                <p class="sub-question">ما هي الوثائق والالتزامات المطلوبة عند الحصول على القرض؟</p>
+                <p>قبل صرف القرض، يجب تقديم:</p>
+                <ul class="space-y-1">
+                    <li>سند تسجيل يثبت الملكية (للأرض أو العقار).</li>
+                    <li>المخططات ورخص البناء المعتمدة (في حال البناء/التوسيع).</li>
+                    <li>سند وضع العقار تأميناً للقرض (سند الرهن).</li>
+                    <li>
+                        <strong class="text-red-700">تفويض قانوني مطلق لا رجوع عنه</strong>:
+                        <br> 1. لحسم الأقساط الشهرية والإضافية.
+                        <br> 2. لحجز كافة المستحقات عند ترك العمل.
+                    </li>
+                </ul>
+                <blockquote class="quote-block">
+                    <p class="quote-block-title">نص المادة (14) من النظام:</p>
+                    <div class="quote-block-content">
+                        "لا يدفع القرض... إلا إذا قدم الوثائق التالية :-
+                        <br> أ- 1- سند تسجيل... 2- المخططات والتصاميم... 3- سند وضع الأرض...
+                        <br> ب- تفويضاً قانونياً مطلقاً لا رجوع عنه لحسم الأقساط الشهرية من رواتبه الشهرية والاضافية ولحجز ما يتجمع لحسابه في الشركة..."
+                    </div>
+                </blockquote>
+            </div>
+        </div>
+
+        <!-- المادة 15 -->
+        <div class="qa-card">
+            <div class="qa-question">
+                المادة (15): شروط الرهن والتأمين على الحياة
+            </div>
+            <div class="qa-answer">
+                <p class="sub-question">ما هي شروط الرهن والتأمين على الحياة؟</p>
+                <ul class="space-y-2">
+                    <li><strong class="text-nepco-blue">الرهن:</strong> يجب رهن العقار لصالح الشركة/الصندوق <strong class="text-gray-900">رهناً من الدرجة الأولى</strong>. (تكاليف الرهن على حسابك).</li>
+                    <li><strong class="text-nepco-blue">مرونة الرهن:</strong> إذا لم تستطع رهن العقار نفسه (لسبب ما)، يُسمح برهن عقار آخر باسمك بشرط أن تكون قيمته التقديرية أعلى من القرض.</li>
+                    <li><strong class="text-nepco-blue">نقل الرهن:</strong> يمكن نقل الرهن لاحقاً إلى عقار آخر (بشرط أن يكون الجديد أعلى قيمة من الرصيد المتبقي).</li>
+                    <li><strong class="text-nepco-blue">التأمين:</strong> يجب أن يؤمن الصندوق على حياتك، وأنت (المستفيد) <strong class="text-gray-900">تتحمل أقساط هذا التأمين</strong> طوال مدة القرض.</li>
+                </ul>
+                <blockquote class="quote-block">
+                    <p class="quote-block-title">نص المادة (15) من النظام:</p>
+                    <div class="quote-block-content">
+                        "أ) يلتزم المستفيد... برهن الوحدة السكنية... رهناً من الدرجة الأولى...
+                        <br> ب) يجوز رهن عقار آخر بدل العقار المرهون...
+                        <br> د) على الصندوق... أن يؤمن لصالحه على حياة أي مستفيد... ويتحمل المستفيد أقساط التأمين..."
+                    </div>
+                </blockquote>
+            </div>
+        </div>
+
+        <!-- المادة 16 -->
+        <div class="qa-card">
+            <div class="qa-question">
+                المادة (16): احتساب الخدمة وآلية التقديم
+            </div>
+            <div class="qa-answer">
+                <p class="sub-question">كيف تحسب "الخدمة" لغايات النقاط ومتى يتم التقديم؟</p>
+                <ul class="space-y-2">
+                    <li><strong class="text-nepco-blue">احتساب الخدمة:</strong> تشمل الخدمة في الشركة (وسلطة الكهرباء سابقاً) + فترة التدريب لخريجي مركز التدريب الكهربائي.</li>
+                    <li><strong class="text-nepco-blue">آلية التقديم:</strong>
+                        <br> 1. يتم التعميم لاستقبال الطلبات <strong class="text-gray-900">مرة واحدة سنوياً</strong> (بداية كل سنة ولمدة شهر).
+                        <br> 2. تدرس الطلبات بعد إقرار الميزانية.
+                        <br> 3. يُمنح المستفيد (الذي تمت الموافقة له) مهلة <strong class="text-gray-900">3 أشهر</strong> لتوفيق أوضاعه (للبدء بالإجراءات).
+                    </li>
+                </ul>
+                <blockquote class="quote-block">
+                    <p class="quote-block-title">نص المادة (16) من النظام:</p>
+                    <div class="quote-block-content">
+                        "أ) تعتبر خدمة الموظف... ويضاف اليها فترة التدريب للمتدربين خريجي مركز التدريب الكهربائي...
+                        <br> د) لتنظيم عملية منح القروض... تتبع الأسس التالية :-
+                        <br> 1 - التعميم على الموظفين لاستقبال الطلبات بداية كل سنة ولمدة شهر .
+                        <br> 2- تدرس طلبات الموظفين... مرة واحدة وبعد إقرار الميزانية.
+                        <br> 3- يمنح الموظفين المستفيدين مهلة ثلاثة أشهر لتوفيق أوضاعهم..."
+                    </div>
+                </blockquote>
+            </div>
+        </div>
+        
+        <!-- المادة 17 -->
+        <div class="qa-card">
+            <div class="qa-question">
+                المادة (17): آلية صرف القرض (للبناء والتوسعة)
+            </div>
+            <div class="qa-answer">
+                <p class="sub-question">كيف يتم صرف القرض إذا كان لغرض البناء أو التوسعة؟</p>
+                <p>يتم صرف القرض المخصص للبناء (أو شراء أرض وبناء) على 4 دفعات مرتبطة بالإنجاز:</p>
+                <ul class="space-y-1">
+                    <li><strong class="text-gray-900">الدفعة الأولى (30%):</strong> بعد إنجاز رخصة البناء (لإقامة الهيكل حتى القمط).</li>
+                    <li><strong class="text-gray-900">الدفعة الثانية (20%):</strong> عند تجهيز السقف للصب.</li>
+                    <li><strong class="text-gray-900">الدفعة الثالثة (25%):</strong> بعد إتمام الهيكل الخارجي (للتشطيبات الداخلية).</li>
+                    <li><strong class="text-gray-900">الدفعة الرابعة (25%):</strong> في منتصف التشطيبات الداخلية.</li>
+                </ul>
+                <p class="mt-2"><strong class="text-red-700">التزامات هامة:</strong></p>
+                <ul class="space-y-1">
+                    <li>يجب مباشرة البناء خلال 30 يوماً من استلام الدفعة الأولى.</li>
+                    <li>يجب إنهاء البناء خلال 12 شهراً (مع إمكانية تمديد 6 أشهر بأسباب مبررة).</li>
+                    <li><strong class="text-nepco-blue">بدء السداد:</strong> يبدأ سداد الأقساط بعد 3 أشهر من تاريخ آخر دفعة.</li>
+                </ul>
+                <blockquote class="quote-block">
+                    <p class="quote-block-title">نص المادة (17) من النظام:</p>
+                    <div class="quote-block-content">
+                        "أ) يدفع القرض الذي خصص لأي مستفيد لإقامة الوحدة السكنية... على دفعات أربع كالتالي : ...
+                        <br> ب) يلتزم المستفيد بمباشرة البناء في مدة لا تزيد على ثلاثين يوماً...
+                        <br> هـ) يبدأ المستفيد في تسديد أقساط القرض... بعد ثلاث أشهر من آخر دفعة..."
+                    </div>
+                </blockquote>
+            </div>
+        </div>
+        
+        <!-- المادة 18 -->
+        <div class="qa-card">
+            <div class="qa-question">
+                المادة (18): آلية صرف القرض (شراء جاهز أو تسديد بنك)
+            </div>
+            <div class="qa-answer">
+                <p class="sub-question">كيف يتم صرف القرض إذا كان لشراء منزل جاهز أو تسديد بنك؟</p>
+                <ul class="space-y-2">
+                    <li>
+                        <strong class="text-nepco-blue">لشراء منزل جاهز:</strong>
+                        <br> يتم دفع مبلغ القرض <strong class="text-gray-900">بكاملة (دفعة واحدة) مباشرة إلى البائع</strong>، وذلك عند تسجيل المنزل باسمك ورهنه لصالح الشركة.
+                    </li>
+                    <li>
+                        <strong class="text-nepco-blue">لتسديد قرض بنكي:</strong>
+                        <br> يتم دفع القرض (حسب الرصيد المستحق للبنك) <strong class="text-gray-900">مباشرة للبنك أو المؤسسة المالية</strong>، بشرط رهن العقار مباشرة لصالح الصندوق/الشركة.
+                    </li>
+                    <li>
+                        <strong class="text-nepco-blue">بدء السداد:</strong> يبدأ السداد بعد 3 أشهر من تاريخ تسجيل الملكية أو الحصول على القرض (أيهما أقل).
+                    </li>
+                </ul>
+                <blockquote class="quote-block">
+                    <p class="quote-block-title">نص المادة (18) من النظام:</p>
+                    <div class="quote-block-content">
+                        "أ) يدفع القرض المخصص لأي مستفيد بكامله إذا كانت الغاية منه شراء وحدة سكنية جاهزة... ويتم الدفع من الصندوق مباشرة إلى البائع...
+                        <br> ب) يدفع القرض السكني للمستفيد الذي يرغب بسداد قرض بنكي...
+                        <br> ج) يبدأ تسديد أقساط القرض... بعد ثلاثة أشهر من تسجيل ملكية الوحدة السكنية..."
+                    </div>
+                </blockquote>
+            </div>
+        </div>
+        
+        <!-- المادة 19 -->
+        <div class="qa-card">
+            <div class="qa-question">
+                المادة (19): معادلة حساب القسط
+            </div>
+            <div class="qa-answer">
+                <p class="sub-question">ما هي معادلة حساب القسط؟</p>
+                <p>يتم حساب القسط ببساطة بتقسيم إجمالي قيمة القرض على فترة السداد المحددة (الـ 240 قسطاً المذكورة في المادة 9).</p>
+                <blockquote class="quote-block">
+                    <p class="quote-block-title">نص المادة (19) من النظام:</p>
+                    <div class="quote-block-content">
+                        "يسدد مبلغ القرض بطريقة الأقساط المتساوية حسب المعادلة التالية :-
+                        <br> قسط السداد = قيمة القرض / فترة السداد الموضحة في المادة رقم (9)"
+                    </div>
+                </blockquote>
+            </div>
+        </div>
+        
+        <!-- المادة 20 -->
+        <div class="qa-card">
+            <div class="qa-question">
+                المادة (20): حالة الوفاة أو العجز الكلي
+            </div>
+            <div class="qa-answer">
+                <p class="sub-question">ماذا يحدث للقرض في حالة الوفاة أو العجز الكلي الدائم؟</p>
+                <p>في حالة الوفاة أو العجز الكلي (بموجب تقرير طبي)، تقوم الشركة بـ <strong class="text-nepco-blue">تسديد رصيد القرض</strong> من المبالغ المستردة من بوالص التأمين على الحياة (تأمين الشركة وتأمين صندوق الإسكان) أو من مستحقات الموظف الأخرى في الشركة والصناديق.</p>
+                <blockquote class="quote-block">
+                    <p class="quote-block-title">نص المادة (20) من النظام:</p>
+                    <div class="quote-block-content">
+                        "إذا توفي المستفيد أو حصل على عجز كلي دائم... فإن الشركة تحسم رصيد قرضه من المبلغ المسترد من شركات التأمين بموجب بوالص التأمين على حياة الموظفين... أو من مستحقاته في الشركة والصناديق معاً."
+                    </div>
+                </blockquote>
+            </div>
+        </div>
+        
+        <!-- المادة 21 -->
+        <div class="qa-card">
+            <div class="qa-question">
+                المادة (21): أحكام إنهاء الخدمة والتقاعد المبكر
+            </div>
+            <div class="qa-answer">
+                <p class="sub-question">ماذا يحدث للقرض عند الاستقالة أو إنهاء الخدمة (لغير التقاعد)؟</p>
+                <p>إذا انتهت خدمتك لأي سبب (غير التقاعد):</p>
+                <ul class="space-y-1">
+                    <li>1. تقوم الشركة <strong class="text-gray-900">بحسم رصيد القرض كاملاً</strong> من جميع مستحقاتك لديها.</li>
+                    <li>2. إذا لم تكن مستحقاتك كافية لتغطية الرصيد، <strong class="text-red-700">يجب عليك سداد المبلغ المتبقي دفعة واحدة خلال 4 أشهر</strong>.</li>
+                    <li>3. إذا لم تسدد، تتخذ الشركة الإجراءات القانونية، بما في ذلك <strong class="text-gray-900">بيع العقار المرهون</strong>.</li>
+                </ul>
+                <blockquote class="quote-block">
+                    <p class="quote-block-title">نص المادة (21 - أ) من النظام:</p>
+                    <div class="quote-block-content">
+                        "1- تقوم الشركة بحسم رصيد قرض الصندوق من مستحقات الموظف لديها...
+                        <br> 2- يتعهد المستفيد بتسديد القرض المطلوب منه دفعة واحدة خلال مدة لا تزيد عن أربعة أشهر... وفي حالة عدم التسديد... تقوم الشركة... ببيع العقار المرهون..."
+                    </div>
+                </blockquote>
+            </div>
+        
+            <hr class="answer-separator">
+
+            <div class="qa-answer">
+                <p class="sub-question">ماذا يحدث للقرض عند التقاعد المبكر؟</p>
+                <p>في حالة التقاعد المبكر، <strong class="text-green-700">يمكنك الاستمرار في تسديد الأقساط كما هي</strong> مبرمجة، ولكن بشرطين:</p>
+                <ul class="space-y-1">
+                    <li>1. تقديم تعهد خطي بالالتزام بالسداد.</li>
+                    <li>2. <strong class="text-red-700">تقديم "كفالة عدلية"</strong> عند إحالتك على التقاعد (ولن تحصل على براءة ذمة بدونها).</li>
+                </ul>
+                <p class="mt-2">إذا تأخرت عن دفع 3 أقساط متتالية، سيتخذ الصندوق الإجراءات القانونية لبيع العقار.</p>
+                <blockquote class="quote-block">
+                    <p class="quote-block-title">نص المادة (21 - ب) من النظام:</p>
+                    <div class="quote-block-content">
+                        "إذا إنتهت خدمة أي مستفيد بسبب التقاعد المبكر فيستمر بتسديد أقساط القرض... شريطة أن... يعزز هذا التعهد بكفالة عدلية تقدم عند إحالة الموظف على التقاعد..."
+                    </div>
+                </blockquote>
+            </div>
+        </div>
+
+        <!-- المادة 22 -->
+        <div class="qa-card">
+            <div class="qa-question">
+                المادة (22): عدد مرات الاستفادة من القرض
+            </div>
+            <div class="qa-answer">
+                <p class="sub-question">كم مرة يمكنني الاستفادة من قروض الصندوق؟</p>
+                <p><strong class="text-red-700">مرة واحدة فقط</strong> طوال مدة خدمتك في الشركة، مهما طالت هذه الخدمة.</p>
+                <blockquote class="quote-block">
+                    <p class="quote-block-title">نص المادة (22) من النظام:</p>
+                    <div class="quote-block-content">
+                        "لا يحق للمستفيد الانتفاع من قروض هذا الصندوق إلا لمرة واحدة طوال مدة خدمته في الشركة مهما بلغت هذه الخدمة."
+                    </div>
+                </blockquote>
+            </div>
+        </div>
+        
+        <!-- المادة 23 -->
+        <div class="qa-card">
+            <div class="qa-question">
+                المادة (23): القيمة القانونية للنظام (عقود القرض)
+            </div>
+            <div class="qa-answer">
+                <p class="sub-question">ماذا يعني أن هذا النظام "جزء من العقد أو الالتزام"؟</p>
+                <p>هذا توضيح قانوني هام. معناه أن أي <strong class="text-nepco-blue">"عقد قرض"</strong> أو <strong class="text-nepco-blue">"اتفاقية رهن"</strong> أو "التزام" توقعه بخصوص أهداف الصندوق (كشراء منزل)، فإن جميع مواد هذا النظام (من 1 إلى 31) تعتبر تلقائياً <strong class="text-gray-900">جزءاً لا يتجزأ من ذلك العقد</strong>، حتى لو لم يتم ذكرها نصاً فيه. هذا يضمن أن شروط النظام هي التي تحكم الاتفاقية.</p>
+                <blockquote class="quote-block">
+                    <p class="quote-block-title">نص المادة (23) من النظام:</p>
+                    <div class="quote-block-content">
+                        "تحقيقاً للأهداف والغايات المقصودة من هذا النظام تعتبر الأحكام الواردة فيه جزءاً من شروط أو قرار أو عقد وذلك في حال عدم النص صراحة على تلك الأحكام في ذلك القرار أو العقد أو الالتزام."
+                    </div>
+                </blockquote>
+            </div>
+        </div>
+        
+        <!-- المادة 24 -->
+        <div class="qa-card">
+            <div class="qa-question">
+                المادة (24): السنة المالية وتغطية العجز
+            </div>
+            <div class="qa-answer">
+                <p class="sub-question">متى تبدأ السنة المالية للصندوق وكيف يغطى العجز؟</p>
+                <p>تبدأ السنة المالية للصندوق مع السنة المالية للشركة. وفي حال حدوث أي عجز أو خسارة، يتم تسديدها <strong class="text-gray-900">من الفائض المتراكم للصندوق</strong>.</p>
+                <blockquote class="quote-block">
+                    <p class="quote-block-title">نص المادة (24) من النظام:</p>
+                    <div class="quote-block-content">
+                        "أ- تبدأ السنة المالية للصندوق وفقاً للسنة المالية الشركة.
+                        <br> ب- تسدد التزامات الصندوق المالية... وعجز يقع فيه من الفائض المتراكم للصندوق."
+                    </div>
+                </blockquote>
+            </div>
+        </div>
+        
+        <!-- المادة 25 -->
+        <div class="qa-card">
+            <div class="qa-question">
+                المادة (25): الموافقة الضمنية وعواقب المعلومات الخاطئة
+            </div>
+            <div class="qa-answer">
+                <p class="sub-question">ماذا يعني تقديمي للطلب؟ وماذا لو قدمت معلومات خاطئة؟</p>
+                <ul class="space-y-2">
+                    <li><strong class="text-nepco-blue">الموافقة:</strong> مجرد تقديمك للطلب يعتبر موافقة منك على كل ما ورد في هذا النظام.</li>
+                    <li>
+                        <strong class="text-red-700">المعلومات الخاطئة:</strong>
+                        <br> إذا قدمت معلومات خطية في طلب القرض وثبت لاحقاً أنها غير صحيحة، فإن القرض:
+                        <br> 1. يصبح <strong class="text-gray-900">لاغياً ومستحق الأداء فوراً</strong>.
+                        <br> 2. تضاف <strong class="text-gray-900">غرامة سنوية 10%</strong> من المبلغ المسحوب من القرض.
+                    </li>
+                </ul>
+                <blockquote class="quote-block">
+                    <p class="quote-block-title">نص المادة (25) من النظام:</p>
+                    <div class="quote-block-content">
+                        "أ) يعتبر تقديم طلب من قبل الموظف للإستفادة من هذا النظام، موافقة منه على ما ورد في هذا النظام.
+                        <br> ب) يعتبر الموظف مسؤولا عن أي معلومات خطية يقدمها في طلب القرض واذا ثبت عدم صحتها... فإن القرض يصبح لاغياً ومستحق الأداء فورا... ويضاف غرامة سنوية مقدارها 10%..."
+                    </div>
+                </blockquote>
+            </div>
+        </div>
+        
+        <!-- المادة 26 -->
+        <div class="qa-card">
+            <div class="qa-question">
+                المادة (26): تنظيم العقود والتوقيع
+            </div>
+            <div class="qa-answer">
+                <p class="sub-question">من ينظم العقود ويوقعها؟</p>
+                <p>تتولى الشركة/الصندوق تنظيم العقود وتسجيلها في مديريات التسجيل (الأراضي). ويوقع عن الشركة/الصندوق <strong class="text-gray-900">مدير الدائرة المعنية</strong> (أي دائرة الصناديق).</p>
+                <blockquote class="quote-block">
+                    <p class="quote-block-title">نص المادة (26) من النظام:</p>
+                    <div class="quote-block-content">
+                        "...ويوقع عن الشركة / الصندوق مدير الدائرة المعني."
+                    </div>
+                </blockquote>
+            </div>
+        </div>
+        
+        <!-- المادة 27 -->
+        <div class="qa-card">
+            <div class="qa-question">
+                المادة (27): إلغاء نظام 2010 ومصير القروض القديمة
+            </div>
+            <div class="qa-answer">
+                <p class="sub-question">ما هو مصير نظام 2010 والقروض القديمة؟</p>
+                <p>يحل نظام 2025 الجديد <strong class="text-gray-900">محل نظام 2010 القديم</strong>.
+                <br>
+                ولكن، القروض التي تم منحها سابقاً (قبل نفاذ هذا النظام) تبقى <strong class="text-nepco-blue">سارية المفعول حسب شروطها القديمة</strong> التي منحت بها.</p>
+                <blockquote class="quote-block">
+                    <p class="quote-block-title">نص المادة (27) من النظام:</p>
+                    <div class="quote-block-content">
+                        "يحل نظام الصندوق رقم (8) لسنة 2025 محل النظام رقم (8) لسنة 2010... وتعتبر القروض الممنوحة بموجب نظام صندوق الإسكان قبل نفاذ أحكام هذا النظام سارية المفعول حسب الشروط الممنوحة بها..."
+                    </div>
+                </blockquote>
+            </div>
+        </div>
+        
+        <!-- المادة 28 -->
+        <div class="qa-card">
+            <div class="qa-question">
+                المادة (28): مصير الاشتراكات عند انتهاء الخدمة
+            </div>
+            <div class="qa-answer">
+                <p class="sub-question">ماذا يحدث لاشتراكاتي عند انتهاء خدمتي؟</p>
+                <p>(هذه المادة تكرر ما ذكر في المادة 12 وتؤكده)
+                <br>
+                <strong class="text-gray-900">تُصرف لك كامل قيمة اشتراكاتك</strong> التي دفعتها، وذلك عند انتهاء خدماتك في الشركة لأي سبب كان (تقاعد، استقالة... الخ). (هذا بالطبع بعد تسديد أي قرض قائم عليك أولاً).</p>
+                <blockquote class="quote-block">
+                    <p class="quote-block-title">نص المادة (28) من النظام:</p>
+                    <div class="quote-block-content">
+                        "تصرف اشتراكات الموظفين في صندوق الإسكان بعد انتهاء خدماته في الشركة لأي سبب كان."
+                    </div>
+                </blockquote>
+            </div>
+        </div>
+        
+        <!-- المادة 29 -->
+        <div class="qa-card">
+            <div class="qa-question">
+                المادة (29): الحالات التي لم ينص عليها النظام
+            </div>
+            <div class="qa-answer">
+                <p class="sub-question">ماذا عن أي حالة لم يذكرها النظام؟</p>
+                <p>أي حالة لم يرد عليها نص واضح في هذا النظام، يتم عرضها من قبل لجنة الصندوق على <strong class="text-nepco-blue">مجلس الإدارة</strong>، ليصدر المجلس القرار المناسب بشأنها.</p>
+                <blockquote class="quote-block">
+                    <p class="quote-block-title">نص المادة (29) من النظام:</p>
+                    <div class="quote-block-content">
+                        "تعرض كل حالة لم ينص عليها في هذا النظام على مجلس الإدارة بناءً على تنسيب لجنة صندوق الإسكان ليصدر القرار الذي يراه مناسباً بشأنها."
+                    </div>
+                </blockquote>
+            </div>
+        </div>
+        
+        <!-- المادة 30 -->
+        <div class="qa-card">
+            <div class="qa-question">
+                المادة (30): تأكيد الإلغاء
+            </div>
+            <div class="qa-answer">
+                <p class="sub-question">تأكيد الإلغاء.</p>
+                <p>تؤكد هذه المادة <strong class="text-gray-900">إلغاء نظام صندوق الإسكان رقم (8) لعام 2010</strong>. (وتبقى التعليمات القديمة سارية حتى يتم استبدالها بجديدة).</p>
+                <blockquote class="quote-block">
+                    <p class="quote-block-title">نص المادة (30) من النظام:</p>
+                    <div class="quote-block-content">
+                        "يُلغى نظام صندوق الإسكان لموظفي شركة الكهرباء الوطنية رقم (8) لعام 2010 وتبقى كافة التعليمات والقرارات الصادرة بمقتضاه سارية المفعول."
+                    </div>
+                </blockquote>
+            </div>
+        </div>
+        
+        <!-- المادة 31 -->
+        <div class="qa-card">
+            <div class="qa-question">
+                المادة (31): رسوم طوابع الواردات
+            </div>
+            <div class="qa-answer">
+                <p class="sub-question">هل هناك أي رسوم إضافية على القرض؟</p>
+                <p><strong class="text-nepco-blue">نعم.</strong> جميع معاملات الاقتراض من هذا الصندوق تخضع <strong class="text-gray-900">لرسوم طوابع الواردات</strong> وفقاً للقانون.</p>
+                <blockquote class="quote-block">
+                    <p class="quote-block-title">نص المادة (31) من النظام:</p>
+                    <div class="quote-block-content">
+                        "تخضع جميع معاملات الاقتراض لموظفي الشركة من هذا الصندوق الى رسوم طوابع الواردات وفق احكام قانون رسوم طوابع الواردات رقم (20) لسنة 2001."
+                    </div>
+                </blockquote>
+            </div>
+        </div>
+
+    </main>
+
+    <!-- فوتر التصميم -->
+    <footer class="text-center p-6 mt-12 bg-gray-800 text-gray-300 text-sm border-t-4 border-nepco-yellow">
+        <p>تصميم: مازن مروان مكحول</p>
+        <p>النقابة العامة للعاملين بالكهراء بالاردن / عضو لجنة الوطنية</p>
+    </footer>
+
+</body>
+</html>
+
